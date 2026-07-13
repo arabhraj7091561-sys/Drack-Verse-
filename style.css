@@ -1,0 +1,11 @@
+body{margin:0;background:#0b0b0b;color:#fff;font-family:Arial}
+header{display:flex;justify-content:space-between;padding:18px 8%;background:#111;position:sticky;top:0}
+.logo{font-size:30px;font-weight:700;color:#ff3030}
+nav a{color:#fff;text-decoration:none;margin-left:18px}
+.hero{text-align:center;padding:80px 20px;background:linear-gradient(135deg,#111,#1b1b1b)}
+.hero img{max-width:180px;border-radius:12px}
+h1{font-size:56px;color:#ff4040}
+.btn{display:inline-block;background:#ff3030;color:#fff;padding:14px 28px;text-decoration:none;border-radius:8px}
+section{padding:60px 10%}
+.card{background:#181818;padding:20px;border-radius:12px}
+footer{text-align:center;padding:25px;background:#111}
