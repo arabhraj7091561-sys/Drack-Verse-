@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="https://accounts.google.com/gsi/client" async defer></script>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>DRACK VERSE</title>
 <link rel="stylesheet" href="style.css">
 </head>
+<div id="g_id_onload"
+     data-client_id="1070224382665-34h4fcg8l6ec4r3brq9schl4dlr0ghsj.apps.googleusercontent.com"
+     data-callback="handleCredentialResponse">
+</div>
+
+<div class="g_id_signin"
+     data-type="standard"
+     data-size="large"
+     data-theme="outline"
+     data-text="sign_in_with"
+     data-shape="rectangular">
+</div>
+
+<script>
+function handleCredentialResponse(response) {
+    alert("Login Successful!");
+    console.log(response.credential);
+}
+</script>
 <body>
 <header>
 <div class="logo">DRACK VERSE</div>
